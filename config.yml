@@ -1,0 +1,18 @@
+DEV:
+  keep_days: 30
+  keep_count: 20
+  del_target_ami_name:
+    - service1_web_develop
+
+STG:
+  keep_days: 30
+  keep_count: 20
+  del_target_ami_name:
+    - service1_web_staging
+
+PRD:
+  keep_days: 30
+  keep_count: 20
+  del_target_ami_name:
+    - service1_web_product
+
